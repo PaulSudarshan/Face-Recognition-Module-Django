@@ -2,8 +2,7 @@ import numpy as np
 import cv2
 import os
 from PIL import Image
-# from settings import BASE_DIR
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from .settings import BASE_DIR
 
 '''
     Take image as an input

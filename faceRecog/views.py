@@ -15,8 +15,8 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import pickle
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# from settings import BASE_DIR
+
+from .settings import BASE_DIR
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
